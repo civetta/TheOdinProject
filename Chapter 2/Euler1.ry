@@ -1,0 +1,13 @@
+ar = []
+sum=0
+10.times do |i|
+	if i%3==0
+		ar << i
+		sum=sum+i
+	elsif i%5==0
+		ar << i
+		sum=sum+i
+	end
+end
+
+puts sum
